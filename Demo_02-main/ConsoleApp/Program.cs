@@ -15,8 +15,8 @@ WriteEmployeeInfo(Miguel);
 WriteEmployeeInfo(Pedro);
 
 //Polimorfismo
-/*void WriteEmployeeInfo(Employee employee)
+void WriteEmployeeInfo(Employee employee)
 {
     Console.WriteLine($"{employee.Name} : {employee.CalculateMonthlyPayment()}");
     Console.WriteLine($"Days: {employee.GetPaymentDays()}");
-}/*
+}
